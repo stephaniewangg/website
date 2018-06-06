@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stephwebsite.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()"><i class="fas fa-times fa-lg"></i></a>
+        <a id="homemenu" href="stephhome.html">home</a>
+        <a href="stephabout.html">about</a>
+        <a href="stephportfolio.html">work</a>
+    </div>
+    <script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("content").style.marginLeft = "250px";
+        var menu = document.getElementById("menubutton");
+        menu.style.display = "none";
+    }
+
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("content").style.marginLeft = "0";
+        var menu = document.getElementById("menubutton");
+        menu.style.display = "block";
+    }
+    </script>
+    <div id="content">
+        <span id="menubutton" onclick="openNav()"><i class="fas fa-bars fa-lg"></i></span>
+        <h1 id="homeheader1">
+    	Hi, my name is <span id="homename">Stephanie Wang</span>.</h1>
+        <p id="homeparagraph">
+            I'm a rising junior studying <span class="try"> Statistics and Machine Learning</span> at
+            <span class="try">Carnegie Mellon University</span>.</p>
+        <p id="socialmedia">
+            <a href=#linkedin>linkedin</a>
+            <span class="period">.</span>
+            <a href=#github>github</a>
+            <span class="period">.</span>
+            <a href=#medium>medium</a>
+        </p>
+    </div>
+</body>
+
+</html>

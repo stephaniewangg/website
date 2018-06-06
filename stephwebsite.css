@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+#homeheader1 {
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 3vw;
+}
+
+#homename {
+    font-weight: normal;
+    color: #7fb6dd;
+}
+
+#homeparagraph {
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+#aboutheader {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #7fb6dd;
+    font-size: 3vw;
+}
+
+#aboutserious {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+#aboutplay {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+#stephpic {
+    border-radius: 50%;
+}
+
+#portfolioheader {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #7fb6dd;
+    font-size: 3vw;
+}
+
+#socialmedia {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    color: #7fb6dd;
+    font-size: 1.25vw;
+}
+
+#content {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#menubutton {
+    position: fixed;
+    top: 50%;
+}
+
+.period {
+    font-size: 2vw;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* White*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding-left: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+#homemenu {
+    padding-top: 275px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #7fb6dd;
+}
+
+.sidenav .closebutton {
+    position: absolute;
+    margin-top: 295px;
+    margin-bottom: 300px;
+    margin-left: 150px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
